@@ -1,0 +1,238 @@
+{% extends 'esportsplatform_main/base.html' %}
+{% load static %}
+
+{% block content %}
+<section>
+    <div class="cut cut-top"></div>
+    <div class="container">
+        <div class="row intro-tables">
+            <div class="col-md-4">
+                <div class="intro-table intro-table-first">
+                    <h5 class="white heading">오늘의 경기</h5>
+                    <div class="owl-carousel owl-schedule bottom">
+                        <div class="item">
+                            <div class="schedule-row row">
+                                <div class="col-xs-6">
+                                    <h5 class="regular white">리그오브레전드</h5>
+                                </div>
+                            </div>
+                            <div class="schedule-row row">
+                                <div class="col-xs-6">
+                                    <h5 class="regular white">얼티 vs 킹존</h5>
+                                </div>
+                                <div class="col-xs-6 text-right">
+                                    <h5 class="white">18:30 - 20:00</h5>
+                                </div>
+                            </div>
+                            <div class="schedule-row row">
+                                <div class="col-xs-6">
+                                    <h5 class="regular white">젠지 vs SKT1</h5>
+                                </div>
+                                <div class="col-xs-6 text-right">
+                                    <h5 class="white">20:00 - 21:30</h5>
+                                </div>
+                            </div>
+                            <div class="schedule-row row">
+                                <div class="col-xs-6">
+                                    <h5 class="regular white">그리핀 vs KT</h5>
+                                </div>
+                                <div class="col-xs-6 text-right">
+                                    <h5 class="white">21:30 - 23:00</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="schedule-row row">
+                                <div class="col-xs-6">
+                                    <h5 class="regular white">오버워치</h5>
+                                </div>
+                            </div>
+                            <div class="schedule-row row">
+                                <div class="col-xs-6">
+                                    <h5 class="regular white">얼티 vs 지부웨</h5>
+                                </div>
+                                <div class="col-xs-6 text-right">
+                                    <h5 class="white">18:30 - 20:00</h5>
+                                </div>
+                            </div>
+                            <div class="schedule-row row">
+                                <div class="col-xs-6">
+                                    <h5 class="regular white">러너웨이 vs 젠지</h5>
+                                </div>
+                                <div class="col-xs-6 text-right">
+                                    <h5 class="white">20:00 - 21:30</h5>
+                                </div>
+                            </div>
+                            <div class="schedule-row row">
+                                <div class="col-xs-6">
+                                    <h5 class="regular white">그리핀 vs 엘미</h5>
+                                </div>
+                                <div class="col-xs-6 text-right">
+                                    <h5 class="white">21:30 - 23:00</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="schedule-row row">
+                                <div class="col-xs-6">
+                                    <h5 class="regular white">배틀그라운드</h5>
+                                </div>
+                            </div>
+                            <div class="schedule-row row">
+                                <div class="col-xs-6">
+                                    <h5 class="regular white">A조 예선</h5>
+                                </div>
+                                <div class="col-xs-6 text-right">
+                                    <h5 class="white">18:30 - 20:00</h5>
+                                </div>
+                            </div>
+                            <div class="schedule-row row">
+                                <div class="col-xs-6">
+                                    <h5 class="regular white">B조 예선</h5>
+                                </div>
+                                <div class="col-xs-6 text-right">
+                                    <h5 class="white">20:00 - 21:30</h5>
+                                </div>
+                            </div>
+                            <div class="schedule-row row">
+                                <div class="col-xs-6">
+                                    <h5 class="regular white">본선</h5>
+                                </div>
+                                <div class="col-xs-6 text-right">
+                                    <h5 class="white">21:30 - 23:00</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="intro-table intro-table-hover">
+                    <h5 class="white heading hide-hover">진행중인 대회</h5>
+                    <div class="bottom">
+                        <h4 class="white heading small-heading no-margin regular">오버워치대표 선발전</h4>
+                        <h4 class="white heading small-pt">참가팀 모집중!!</h4>
+                        <a href="#" class="btn btn-white-fill expand">참가신청</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="intro-table intro-table-third">
+                    <h5 class="white heading">경기반응</h5>
+                    <div class="owl-testimonials bottom">
+                        <div class="item">
+                            <h4 class="white heading content">에임실화냐선수 에임실화냐!</h4>
+                            <h5 class="white heading light author">이진재</h5>
+                        </div>
+                        <div class="item">
+                            <h4 class="white heading content">말이 안되는 피지컬, 얼티메이트 화이팅!</h4>
+                            <h5 class="white heading light author">김남희</h5>
+                        </div>
+                        <div class="item">
+                            <h4 class="white heading content">배틀그라운드 최강팀, KDT 최고!</h4>
+                            <h5 class="white heading light author">신병근</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="services" class="section section-padded">
+    <div class="container">
+        <div class="row text-center title">
+            <h2>대회종목</h2>
+            <h4 class="light muted">부산대학교 학우들이여 승리를 쟁취하라!</h4>
+        </div>
+        <div class="row services">
+            <div class="col-md-4">
+                <div class="service">
+                    <div class="icon-holder">
+                        <img src="{% static 'img/icons/heart-blue.png' %}" alt="" class="icon">
+                    </div>
+                    <h4 class="heading">리그오브레전드</h4>
+                    <p class="description">5명이서 한팀을 이루어...</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="service">
+                    <div class="icon-holder">
+                        <img src="{% static 'img/icons/guru-blue.png' %}" alt="" class="icon">
+                    </div>
+                    <h4 class="heading">오버워치</h4>
+                    <p class="description">6명이서 한팀을 이루어...</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="service">
+                    <div class="icon-holder">
+                        <img src="{% static 'img/icons/weight-blue.png' %}" alt="" class="icon">
+                    </div>
+                    <h4 class="heading">배틀그라운드</h4>
+                    <p class="description">4명이서 한팀을 이루어...</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="cut cut-bottom"></div>
+</section>
+<section id="team" class="section gray-bg">
+    <div class="container">
+        <div class="row title text-center">
+            <h2 class="margin-top">대회운영팀</h2>
+            <h4 class="light muted">문의는 언제나 환영이야!</h4>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="team text-center">
+                    <div class="cover" style="background:url('{% static 'img/team/team-cover1.jpg' %}') center; background-size:cover;">
+                        <div class="overlay text-center">
+                            <h3 class="white">대회운영총괄</h3>
+                            <h5 class="light light-white">내용적기</h5>
+                        </div>
+                    </div>
+                    <img src="{% static 'img/team/team1.jpg' %}" alt="Team Image" class="avatar" style="width:120px;height:120px;">
+                    <div class="title">
+                        <h4>김지연</h4>
+                        <h5 class="muted regular">팀장</h5>
+                    </div>
+                    <button data-toggle="" data-target="" class="btn btn-blue-fill">문의하기</button>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="team text-center">
+                    <div class="cover" style="background:url('{% static 'img/team/team-cover2.jpg' %}') center; background-size:cover;">
+                        <div class="overlay text-center">
+                            <h3 class="white">대회진행관리자</h3>
+                            <h5 class="light light-white">내용적기</h5>
+                        </div>
+                    </div>
+                    <img src="{% static 'img/team/team2.jpg' %}" alt="Team Image" class="avatar" style="width:120px;height:120px;">
+                    <div class="title">
+                        <h4>김연재</h4>
+                        <h5 class="muted regular">관리자</h5>
+                    </div>
+                    <a href="#" data-toggle="" data-target="" class="btn btn-blue-fill ripple">문의하기</a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="team text-center">
+                    <div class="cover" style="background:url('{% static 'img/team/team-cover3.jpg' %}') center; background-size:cover;">
+                        <div class="overlay text-center">
+                            <h3 class="white">대회페이지관리자</h3>
+                            <h5 class="light light-white">내용적기</h5>
+                        </div>
+                    </div>
+                    <img src="{% static 'img/team/team3.jpg' %}" alt="Team Image" class="avatar" style="width:120px;height:120px;">
+                    <div class="title">
+                        <h4>신병근</h4>
+                        <h5 class="muted regular">관리자</h5>
+                    </div>
+                    <a href="#" data-toggle="" data-target="" class="btn btn-blue-fill ripple">문의하기</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+{% endblock %}

@@ -1,0 +1,152 @@
+{% extends 'esportsplatform_main/base.html' %}
+{% load static %}
+
+{% block content %}
+<!-- Main content -->
+<section class="content">
+    <div class="row">
+        <div class="col-sm-offset-1 col-sm-10 col-lg-offset-3 col-lg-6">
+            <div class="box box-danger">
+                <div class="box-header with-border">
+                    <h3 class="box-title">
+                            <a data-toggle="collapse" href="#collapse1">
+                                    대회 기본정보
+                            </a>
+                    </h3>
+                </div>
+                <div id="collapse1" class="panel-collapse collapse in">
+                    <div class="box-body">
+                        <div class="row">
+                            <div class="col-xs-3">
+                                <input type="text" class="form-control" placeholder=".col-xs-3">
+                            </div>
+                            <div class="col-xs-4">
+                                <input type="text" class="form-control" placeholder=".col-xs-4">
+                            </div>
+                            <div class="col-xs-5">
+                                <input type="text" class="form-control" placeholder=".col-xs-5">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- /.box-body -->
+                </div>
+        </div>
+
+    </div>
+</section>
+<!-- /.content -->
+
+
+
+
+<!-- Main content -->
+<section class="content">
+    <div class="row">
+        <div class="col-sm-offset-1 col-sm-10 col-lg-offset-3 col-lg-6">
+            <div class="box">
+                <div class="panel-group" id="accordion">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">
+                                    대회 기본정보
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapse1" class="panel-collapse collapse in">
+                            <div class="panel-body">
+                                대회 기본정보
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">
+                                    대회 상세정보
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapse2" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <div class="row">
+                                    <div class="col-xs-3">
+                                        <input type="text" class="form-control" placeholder=".col-xs-3">
+                                    </div>
+                                    <div class="col-xs-4">
+                                        <input type="text" class="form-control" placeholder=".col-xs-4">
+                                    </div>
+                                    <div class="col-xs-5">
+                                        <input type="text" class="form-control" placeholder=".col-xs-5">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">
+                                    대회 규정
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapse3" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                대회 규정
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse4">
+                                    대회 상금
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapse4" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                대회 상금
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse5">
+                                    대회 일정
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapse5" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                대회 일정
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse6">
+                                    주최 연락처
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapse6" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                주최 연락처
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+<!-- /.content -->
+
+{% endblock %}

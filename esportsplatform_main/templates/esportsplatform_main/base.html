@@ -1,0 +1,161 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>부산대학교 e스포츠 정규 리그</title>
+	<meta name="description" content="" />
+	<meta name="keywords" content="LoL, Overwatch, Battleground, PNU, UntoC" />
+	<meta name="author" content="PNUntoC" />
+	<!-- Favicons (created with http://realfavicongenerator.net/)-->
+	<link rel="icon" href="{% static 'img/favicons/favicon.ico' %}">
+	<link rel="shortcut icon" href="{% static 'img/favicons/favicon.ico' %}">
+	<!-- Normalize -->
+	<link rel="stylesheet" type="text/css" href="{% static 'css/normalize.css' %}">
+	<!-- Bootstrap -->
+	<link rel="stylesheet" type="text/css" href="{% static 'css/bootstrap.css' %}">
+	<!-- Owl -->
+	<link rel="stylesheet" type="text/css" href="{% static 'css/owl.css' %}">
+	<!-- Animate.css -->
+	<link rel="stylesheet" type="text/css" href="{% static 'css/animate.css' %}">
+	<!-- Font Awesome -->
+	<link rel="stylesheet" type="text/css" href="{% static 'fonts/font-awesome-4.1.0/css/font-awesome.min.css' %}">
+	<!-- Elegant Icons -->
+	<link rel="stylesheet" type="text/css" href="{% static 'fonts/eleganticons/et-icons.css' %}">
+	<!-- Main style -->
+	<link rel="stylesheet" type="text/css" href="{% static 'css/cardio.css' %}">
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="{% static 'adminlte/bower_components/font-awesome/css/font-awesome.min.css' %}">
+	<!-- Ionicons -->
+	<link rel="stylesheet" href="{% static 'adminlte/bower_components/Ionicons/css/ionicons.min.css' %}">
+	<!-- Theme style -->
+	<link rel="stylesheet" href="{% static 'adminlte/dist/css/AdminLTE.min.css' %}">
+	<!-- AdminLTE Skins. Choose a skin from the css/skins
+		folder instead of downloading all of them to reduce the load. -->
+	<link rel="stylesheet" href="{% static 'adminlte/dist/css/skins/_all-skins.min.css' %}">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
+
+</head>
+
+<body>
+	<div class="preloader">
+		<img src="{% static 'img/loader.gif' %}" alt="Preloader image">
+	</div>
+	<nav class="navbar">
+		<div class="container">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#"><img src="{% static 'img/untocIcon.png' %}" data-active-url="{% static 'img/untocIcon.png' %}" alt="" style="width:50px;height:50px;"></a>
+			</div>
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav navbar-right main-nav">
+					<li><a href="#intro">대회소개</a></li>
+					<li><a href="#intro">참가신청</a></li>
+					<li><a href="#intro">일정</a></li>
+					<li><a href="#intro">순위표</a></li>
+					<li><a href="#pricing">스크림</a></li>
+					<li><a href="#" data-toggle="modal" data-target="#modal1" class="btn btn-blue">로그인</a></li>
+				</ul>
+			</div>
+			<!-- /.navbar-collapse -->
+		</div>
+		<!-- /.container-fluid -->
+	</nav>
+	<header id="intro">
+		<div class="container">
+			<div class="table">
+				<div class="header-text">
+					<div class="row">
+						<div class="col-md-12 text-center">
+							<h3 class="light white">켠김에 대표팀까지~!!</h3>
+							<h1 class="white typed">부산대학교 e스포츠 정규 리그</h1>
+							<span class="typed-cursor">|</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+{% block content %}
+{% endblock%}
+
+	<div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content modal-popup">
+				<a href="#" class="close-link"><i class="icon_close_alt2"></i></a>
+				<h3 class="white">로그인</h3>
+				<form action="" class="popup-form">
+					<input type="text" class="form-control form-white" placeholder="이메일">
+					<input type="text" class="form-control form-white" placeholder="패스워드">
+					<button type="submit" class="btn btn-submit">로그인</button>
+					<h5 class="white">회원이 아니신가요?<a>회원가입</a></h5>
+					
+				</form>
+			</div>
+		</div>
+	</div>
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-6 text-center-mobile">
+					<h3 class="white">영웅이여 도전하세요!</h3>
+					<h5 class="light regular light-white">대회에 참가하여 실력을 뽐내세요.</h5>
+					<a href="#" class="btn btn-blue ripple trial-button">참가신청하기</a>
+				</div>
+				<div class="col-sm-6 text-center-mobile">
+					<h3 class="white">문의가능시간 <span class="open-blink"></span></h3>
+					<div class="row opening-hours">
+						<div class="col-sm-6 text-center-mobile">
+							<h5 class="light-white light">Mon - Fri</h5>
+							<h3 class="regular white">9:00 - 22:00</h3>
+						</div>
+						<div class="col-sm-6 text-center-mobile">
+							<h5 class="light-white light">Sat - Sun</h5>
+							<h3 class="regular white">10:00 - 18:00</h3>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row bottom-footer text-center-mobile">
+				<div class="col-sm-8" style="color: #fff">
+					Developed by <i class="fa fa-love"></i><a href="https://bootstrapthemes.co">PNUntoC</a>
+				</div>
+				<div class="col-sm-4 text-right text-center-mobile">
+					<ul class="social-footer">
+						<li><a href="http://www.facebook.com/pages/Codrops/159107397912"><i class="fa fa-facebook"></i></a></li>
+						<li><a href="http://www.twitter.com/codrops"><i class="fa fa-twitter"></i></a></li>
+						<li><a href="https://plus.google.com/101095823814290637419"><i class="fa fa-google-plus"></i></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- Holder for mobile navigation -->
+	<div class="mobile-nav">
+		<ul>
+		</ul>
+		<a href="#" class="close-link"><i class="arrow_up"></i></a>
+	</div>
+	<!-- Scripts -->
+	<script src="{% static 'js/jquery-1.11.1.min.js' %}"></script>
+	<script src="{% static 'js/owl.carousel.min.js' %}"></script>
+	<script src="{% static 'js/bootstrap.min.js' %}"></script>
+	<script src="{% static 'js/wow.min.js' %}"></script>
+	<script src="{% static 'js/typewriter.js' %}"></script>
+	<script src="{% static 'js/jquery.onepagenav.js' %}"></script>
+	<script src="{% static 'js/main.js' %}"></script>
+</body>
+
+</html>
