@@ -3,6 +3,8 @@
 
 E-sports 통합 관리 시스템
 
+로컬 페이지(기능 동작안함, 페이지 디자인 참고용) : https://esportsplatform.firebaseapp.com/
+
 ## TEAM ULTIMATE
 TEAM ULTIMATE에 대해 간단히 소개를 하자면 
 부산정보산업진흥원 소속 부산e스포츠협회의 대회 운영 관련문제를 해결하기위해
